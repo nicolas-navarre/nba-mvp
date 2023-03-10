@@ -5,7 +5,6 @@ import time
 # https://github.com/swar/nba_api/tree/master/docs/nba_api/stats/endpoints
 import nba_api
 
-
 from nba_api.stats.static import players
 from nba_api.stats.static import teams
 
@@ -15,7 +14,6 @@ from nba_api.stats.endpoints import boxscoretraditionalv2
 
 import warnings
 warnings.filterwarnings('ignore')
-
 
 # add in any season you want. 20th century seasons are 21960, 21961,..
 seasons = ['22011', '22012', '22013', '22014', '22015', '22016', '22017',
