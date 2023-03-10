@@ -1,6 +1,3 @@
-import pandas as pd
-import time
-
 # useful link for other endpoints
 # https://github.com/swar/nba_api/tree/master/docs/nba_api/stats/endpoints
 import nba_api
@@ -12,6 +9,8 @@ from nba_api.stats.endpoints import leaguegamefinder
 from nba_api.stats.endpoints import boxscoreadvancedv2
 from nba_api.stats.endpoints import boxscoretraditionalv2
 
+import pandas as pd
+import time
 import warnings
 warnings.filterwarnings('ignore')
 
